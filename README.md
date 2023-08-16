@@ -37,6 +37,7 @@ In each review, you will see a news_id field containing the ID of the article. T
 • num_satisfactory being the total number of criteria (between 0 and 10) that are satisfactory.
 The rows in task2.csv should be in ascending order of news_id.
 To run your solution, open the terminal and run python main.py task2
+
 Task 3. Extracting meta-data 
 Each news article comes with a publish_date field, which specifies when the article was published. The field is in the millisecond precision format, which is a floating point number. Convert it into a more readable format using the datetime.datetime.fromtimestamp() function. It should return you an object of type datetime, and you will need to consult the documentation to extract the year, month and date of the article.
 Implement the function task3() in task3.py that performs the following two sub tasks:
